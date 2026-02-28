@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+<div class="login-card">
+  <img src="images/logo.jpg" class="logo">
+  <h2 id="title">Login</h2>
+
+  <form id="form">
+    <input type="text" id="username" placeholder="Username" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <input type="password" id="confirm" placeholder="Confirm Password" style="display:none">
+
+    <button type="submit">Login</button>
+
+    <p>
+      <span id="text">Don't have an account?</span>
+      <a href="#" id="toggle">Register</a>
+    </p>
+  </form>
+</div>
+
+<script src="js/login.js"></script>
+</body>
+</html>
